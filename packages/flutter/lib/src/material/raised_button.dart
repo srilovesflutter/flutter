@@ -137,7 +137,7 @@ class RaisedButton extends MaterialButton {
     bool autofocus = false,
     MaterialTapTargetSize materialTapTargetSize,
     Duration animationDuration,
-    Widget child,
+    @required Widget child,
   }) : assert(autofocus != null),
        assert(elevation == null || elevation >= 0.0),
        assert(focusElevation == null || focusElevation >= 0.0),
